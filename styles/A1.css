@@ -11,11 +11,12 @@
     width: 1498px;
     height: 681px;
 }
-.azeret-mono-azeret-mono {
+.azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  
 }
 
 .banner-content{
@@ -43,11 +44,145 @@
   color: white;
   font-family: "Azeret Mono", monospace;
    height:65px;
-   margin-top: 15px;
-   padding: 18px 18px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 20px 18px;
    gap: 10px;
    font-weight: 400;
    font-size: 20px;
     line-height: auto;
     text-align: center;
 }
+*{
+    font-family: "Azeret Mono", monospace;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main { margin: 80px 480px 80px 300px;
+    padding:70px 96px;
+    width: 1140px;
+    height: 1393px;
+
+    background-color:rgba(13, 19, 33, 0.02)
+
+}
+.web { 
+   
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    width: 858px;
+    height: 113px;
+}
+.web-title{ margin-top: 0;
+
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;}
+
+    .web-description{
+        margin-top:24px ;
+        font-size: 16px;
+        color: rgba(13, 19, 33, 1);
+        opacity: 70%;
+        
+    }
+    .cards{
+          width: 946px;
+         height: 336px;
+         gap: 16px;
+         margin-right: 97px ;
+          font-family: "Azeret Mono", monospace;
+          padding-: 48px 48px;
+          
+    }
+    .card1{ display: flex;
+        text-decoration: none;
+
+        background-color: white;
+        width: 950px;
+        height: 336px;
+        margin: 16px;
+        border: none;
+        border-radius: 15px;
+        padding: 28px 48px 28px 48px;
+        text-align: left;
+
+    }
+    .card2{ display: flex;
+        background-color: white;
+        width: 950px;
+        height: 336px;
+        margin:16px ;
+        text-align: right;
+        border-radius: 15px;
+        padding: 28px 48px 28px 48px;
+        text-align: left;
+
+    }
+    .card1-title,.card2-title{
+        margin: 16px 16px;
+        width: 477px;
+        height: 72px;
+        line-height: 36px;
+        padding: 16px 0 ;
+        font-size: 24px ;
+        font-weight:bold ;
+        font-family: "Azeret Mono", monospace;
+    
+       color:rgba(13, 19, 33, .7)
+
+    }
+    .card1-text{
+        text-align:left ;
+        padding: 0;
+    }
+    .card2-text{
+        text-align: left;
+        padding: 0;
+    }
+    
+
+    .text-description{
+        gap: 16px;
+        margin: 16px;
+         font-size: 16px;
+        color: rgba(13, 19, 33, 1);
+        font-family: "Azeret Mono", monospace;
+    
+       
+        line-height: 26px;
+        font-size: 16px;
+        color: rgba(13, 19, 33, .7);
+        opacity: 70%;}
+        .card1, .card2{
+            gap: 16px;
+            margin-bottom: 40px;
+            
+        }
+        .btn-primary{
+            color: #0D1321;
+            margin: 10px 20px;
+            
+            font-weight: 600;
+            font-size: 18px;
+            opacity: 70%;
+            text-align: center;
+            background-color: white;
+            font-family: "Azeret Mono", monospace;
+            border: 2px solid #0D1321;
+            padding: 12px 20px 12px 20px;
+            height: 47px;
+            width: 171px;
+            
+
+        }
+        .card1-title, .text-description,.card2-title{
+
+            margin: 16px ;
+            gap: 16px;
+        }
+    
