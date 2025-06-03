@@ -1,4 +1,4 @@
-.banner{
+.banner {
     display: flex;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
@@ -7,182 +7,430 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    
+
     width: 1498px;
     height: 681px;
 }
+
 .azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
 }
 
-.banner-content{
+.banner-content {
     margin-top: 20px;
     width: 998px;
     height: 581px;
 }
-.banner-title{ height: 136px;
-    font-weight:800 ;
+
+.banner-title {
+    height: 136px;
+    font-weight: 800;
     font-family: "Azeret Mono", monospace;
     line-height: 68px;
-   font-size: 50px;
-   color: #0D1321;
+    font-size: 50px;
+    color: #0D1321;
 
 }
-.banner-description{ 
+
+.banner-description {
     margin: 20px;
     opacity: 70%;
-   color: #0D1321;
-     font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
 }
-.btn{ background-color: #0D1321;
+
+.btn {
+    background-color: #0D1321;
     border-radius: 5px;
-  width:244px;
-  color: white;
-  font-family: "Azeret Mono", monospace;
-   height:65px;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   padding: 20px 18px;
-   gap: 10px;
-   font-weight: 400;
-   font-size: 20px;
+    width: 244px;
+    color: white;
+    font-family: "Azeret Mono", monospace;
+    height: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 18px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: auto;
     text-align: center;
 }
-*{
+
+* {
     font-family: "Azeret Mono", monospace;
     border: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.main { margin: 80px 480px 80px 300px;
-    padding:70px 96px;
+
+.main {
+    margin: 80px 480px 80px 300px;
+    padding: 70px 96px;
     width: 1140px;
     height: 1393px;
 
-    background-color:rgba(13, 19, 33, 0.02)
-
+    background-color: rgba(13, 19, 33, 0.02)
 }
-.web { 
-   
+
+.web {
+
     justify-content: center;
     text-align: center;
     margin: 20px;
     width: 858px;
     height: 113px;
 }
-.web-title{ margin-top: 0;
+
+.web-title {
+    margin-top: 0;
 
     font-weight: 800;
     font-size: 32px;
     text-align: center;
-    justify-content: center;}
+    justify-content: center;
+}
 
-    .web-description{
-        margin-top:24px ;
-        font-size: 16px;
-        color: rgba(13, 19, 33, 1);
-        opacity: 70%;
-        
-    }
-    .cards{
-          width: 946px;
-         height: 336px;
-         gap: 16px;
-         margin-right: 97px ;
-          font-family: "Azeret Mono", monospace;
-          padding-: 48px 48px;
-          
-    }
-    .card1{ display: flex;
-        text-decoration: none;
+.web-description {
+    margin-top: 24px;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    opacity: 70%;
 
-        background-color: white;
-        width: 950px;
-        height: 336px;
-        margin: 16px;
-        border: none;
-        border-radius: 15px;
-        padding: 28px 48px 28px 48px;
-        text-align: left;
+}
 
-    }
-    .card2{ display: flex;
-        background-color: white;
-        width: 950px;
-        height: 336px;
-        margin:16px ;
-        text-align: right;
-        border-radius: 15px;
-        padding: 28px 48px 28px 48px;
-        text-align: left;
+.cards {
+    width: 946px;
+    height: 336px;
+    gap: 16px;
+    margin-right: 97px;
+    font-family: "Azeret Mono", monospace;
+    padding-: 48px 48px;
 
-    }
-    .card1-title,.card2-title{
-        margin: 16px 16px;
-        width: 477px;
-        height: 72px;
-        line-height: 36px;
-        padding: 16px 0 ;
-        font-size: 24px ;
-        font-weight:bold ;
-        font-family: "Azeret Mono", monospace;
-    
-       color:rgba(13, 19, 33, .7)
+}
 
-    }
-    .card1-text{
-        text-align:left ;
-        padding: 0;
-    }
-    .card2-text{
-        text-align: left;
-        padding: 0;
-    }
-    
+.card1 {
+    display: flex;
+    text-decoration: none;
 
-    .text-description{
-        gap: 16px;
-        margin: 16px;
-         font-size: 16px;
-        color: rgba(13, 19, 33, 1);
-        font-family: "Azeret Mono", monospace;
-    
-       
-        line-height: 26px;
-        font-size: 16px;
-        color: rgba(13, 19, 33, .7);
-        opacity: 70%;}
-        .card1, .card2{
-            gap: 16px;
-            margin-bottom: 40px;
-            
-        }
-        .btn-primary{
-            color: #0D1321;
-            margin: 10px 20px;
-            
-            font-weight: 600;
-            font-size: 18px;
-            opacity: 70%;
-            text-align: center;
-            background-color: white;
-            font-family: "Azeret Mono", monospace;
-            border: 2px solid #0D1321;
-            padding: 12px 20px 12px 20px;
-            height: 47px;
-            width: 171px;
-            
+    background-color: white;
+    width: 950px;
+    height: 336px;
+    margin: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 28px 48px 28px 48px;
+    text-align: left;
 
-        }
-        .card1-title, .text-description,.card2-title{
+}
 
-            margin: 16px ;
-            gap: 16px;
-        }
-    
+.card2 {
+    display: flex;
+    background-color: white;
+    width: 950px;
+    height: 336px;
+    margin: 16px;
+    text-align: right;
+    border-radius: 15px;
+    padding: 28px 48px 28px 48px;
+    text-align: left;
+
+}
+
+.card1-title,
+.card2-title {
+    margin: 16px 16px;
+    width: 477px;
+    height: 72px;
+    line-height: 36px;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+
+    color: rgba(13, 19, 33, .7)
+}
+
+.card1-text {
+    text-align: left;
+    padding: 0;
+}
+
+.card2-text {
+    text-align: left;
+    padding: 0;
+}
+
+
+.text-description {
+    gap: 16px;
+    margin: 16px;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono", monospace;
+
+
+    line-height: 26px;
+    font-size: 16px;
+    color: rgba(13, 19, 33, .7);
+    opacity: 70%;
+}
+
+.card1,
+.card2 {
+    gap: 16px;
+    margin-bottom: 40px;
+
+}
+
+.btn-primary {
+    color: #0D1321;
+    margin: 10px 20px;
+
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 70%;
+    text-align: center;
+    background-color: white;
+    font-family: "Azeret Mono", monospace;
+    border: 2px solid #0D1321;
+    padding: 12px 20px 12px 20px;
+    height: 47px;
+    width: 171px;
+
+
+}
+
+.card1-title,
+.text-description,
+.card2-title {
+
+    margin: 16px;
+    gap: 16px;
+}
+
+.nav {
+    width: 1140px;
+    height: 980px;
+    gap: 48px;
+    text-align: center;
+    justify-content: center;
+    border-left: 180px solid white;
+
+    margin: 20px 150px 20px 150px;
+    background-color: white;
+
+    display: flexbox;
+
+
+
+}
+
+.nav-title {
+    font-size: 32px;
+    line-height: auto;
+    height: 37px;
+    gap: 24px;
+    margin: 16px;
+    font-weight: 800;
+    font-family: "Azeret Mono", monospace;
+    width: 952px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.nav-description {
+    text-align: center;
+    justify-content: center;
+    padding-left: 80px;
+
+    margin: 16px 50px 16px 50px;
+    height: 52px;
+    width: 952px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    opacity: 70%;
+}
+.nav-image{
+    width: 1142px;
+    height: 620px ;
+    border: 120px solid white;
+    border-radius: 16px;
+    padding: 32px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-image: none;
+}
+.img{
+     width: 1142px;
+    height: 620px ;
+    border-radius: 16px;
+  
+    padding: 32px;
+}
+.footer{ 
+    margin:128px ;
+    width: 1340px;
+     height: 613px;
+    padding: 64px 48px 64px 78px;
+     border: 20px solid white;
+     border-radius: 16px;
+     /* opacity: 95%;
+     box-shadow: rgba(0, 0, 0, 0.5); */
+     /* background-color: rgba(0, 0, 0, 0.2); */
+    background-image: url(../assets/handshake.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+   
+.foot-title{
+    display: flex;
+    margin: 0 auto;
+    height: 36px;
+    text-align: center;
+    justify-content: center;
+    width:292px ;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    line-height: 36px;
+
+}
+ /* .foot-description p{
+   margin: 16px;
+    height: 52px;
+    width: 606px;
+    text-align: center;
+    justify-content: center;
+    font-weight:400 ;
+    font-size:16px ;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Azeret Mono", monospace;} */
+
+
+/* footer style2 */
+
+
+#support {
+    border: 2px solid;
+    width: 1300px;
+    height: 280px;
+    margin: auto;
+    padding: 50px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.support-div1 {
+    width: 1200px;
+    height: 260px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#support .support-title {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#support .subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 730px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+
+}
+
+.btnsize {
+    width: 120px;
+    height: 60px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.submit {
+    color: rgb(13, 19, 33);
+   font-family: "Azeret Mono", monospace;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btnfrm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+#foot {
+    margin: auto;
+    margin-top: 60px;
+    /* width: 1440px; */
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.ft {
+
+    margin: auto;
+    height: 36px;
+    width: 1140px;
+    padding: 40px;
+}
+
+#foot .gap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#foot .subtitle {
+    color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btnpointer{
+    cursor: pointer;
+}
